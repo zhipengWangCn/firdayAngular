@@ -1,0 +1,149 @@
+.body,.html {
+	width: 100%;
+	height: 100%;
+}
+.tankuang {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.back {
+	width:100%;
+	height: 100%;
+	border: 2px solid #e2e2e2;
+	display: none;
+}
+.back .small-k {
+	width: 702px;
+	height: 355px;
+	background:url(../img/main/10.png) no-repeat;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+}
+.small-k p {
+	position: absolute;
+	left: 60px;
+	top: 70px;
+	font-size: 18px;
+	color: #333;
+}
+.small-k p span {
+	display: inline-block;
+	width: 178px;
+	height: 35px;
+	background-color: #498e3d;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
+.small-k .sele {
+	width: 572px;
+	height: 35px;
+	position: absolute;
+	left: 60px;
+	top: 140px;
+}
+#sheng,#shi,#xian {
+	display: inline-block;
+	width: 140px;
+	height: 35px;
+	border: 1px solid #e2e2e2;
+	vertical-align: middle;
+	/*line-height: 35px;*/
+	position: relative;
+}
+#sheng div,#shi div,#xian div {
+	display: inline-block;
+	width: 14px;
+	height: 10px;
+	position: absolute;
+	right:10px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+#sheng div img,#shi div img,#xian div img {
+	width: 100%;
+	height: 100%;
+}
+.small-k .sele span{
+	padding:0 17px;
+	font-size: 18px;
+	color: #333;
+	line-height: 26px;
+}
+.small-k .sele p {
+	position: absolute;
+	left: 15px;
+	top: 7px;
+}
+
+.sele option {
+	/*display: none;*/
+	background-color: #fff;
+}
+
+option {
+	padding: 8px 15px;
+	font-size: 18px;
+}
+.small-k .sele .last-sp {
+	padding-right:0;
+}
+
+#sh {
+	width: 142px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 33px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: none;
+}
+#city {
+	width: 142px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	top: 33px;
+	overflow-x: hidden;
+	display: none;
+	z-index: 3;
+}
+#xi {
+	width: 142px;
+	height: 200px;
+	position: absolute;
+	left: 395px;
+	top: 33px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: none;
+}
+.small-k  button {
+	width: 150px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 60px;
+	background-color: #f08200;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+

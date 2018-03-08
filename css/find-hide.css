@@ -1,0 +1,50 @@
+.find-hide {
+	width: 1083px;
+	height: 622px;
+	border: 1px solid #e7e7e7;
+}
+.find-hide .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.find-hide .first p {
+	font-size: 18px;
+	line-height: 55px;
+	color: #303030;
+	margin-left: 22px;
+}
+.find-hide .second {
+	width: 1042px;
+	margin: 20px auto 0;
+}
+.find-hide .second p:nth-child(1){
+	font-size: 18px;
+	color: #4b943d;
+	width: 100%;
+	text-align: center;
+	margin-top: 46px;
+}
+.find-hide .second p:nth-child(2){
+	font-size: 14px;
+	color: #999;
+	width: 100%;
+	text-align: right;
+	margin-top: 24px;
+}
+.find-hide .second p:nth-child(3){
+	font-size: 15px;
+	color: #666;
+	width: 100%;
+	margin-top: 26px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>换绑手机2</title>
+		<link rel="stylesheet" type="text/css" href="../css/changePhone2.css" />
+	</head>
+
+	<body>
+		<div class="changephone2">
+			<div class="first">
+				<p>换绑手机</p>
+			</div>
+			<div class="second">
+				<div class="threeimg">
+					<img src="../img/selfCenter/28.png" alt="" /><img src="../img/selfCenter/29.png" alt="" /><img src="../img/selfCenter/30.png" alt="" />
+				</div>
+				<div class="cpleft">
+					<input type="text" class="inp3" placeholder="请输入新手机号" /><br />
+					<div class="thre">
+						<input type="text" class="inp4" placeholder="验证码" />
+						<img src="../img/selfCenter/13.png" id="imgp" alt="" />
+						<p id="clearsp">看不清换一张</p>
+					</div>
+
+					<div class="phoneyzm"><input type="text" class="inp5" placeholder="手机验证码" /><span>获取验证码</span></div>
+					<button class="tjyzm-an">提交验证码</button>
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".tjyzm-an").click(function(){
+			window.location.href = "#/changePhone3";
+		});
+	</script>
+
+</html>

@@ -1,0 +1,41 @@
+.sResult{
+	width: 1280px;
+	height: 56px;
+	line-height: 56px;
+	margin: 0 auto;
+	
+}
+.sResult3{
+	border-bottom: 1px solid #e7e7e7;
+	
+}
+.sResult{
+	color: #666;
+	font-size: 16px;
+	
+}
+.sResult .span2:nth-child(2){
+	margin-left: 26px;
+	text-align: left;
+}
+.sResult .span3:nth-child(2){
+	margin-left: 26px;
+	text-align: left;
+}
+.sResult .span1,.sResult .span4{
+	padding: 5px 11px;
+	cursor: pointer;
+	text-align: center;
+	
+	margin-right: 13px;
+	
+}
+.span2{
+	background-color: #498e3d;
+	color: #fff;
+}
+.span3{
+	background-color: #498e3d;
+	color: #fff;
+}
+

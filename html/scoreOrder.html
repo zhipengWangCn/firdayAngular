@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>积分订单</title>
+		<link rel="stylesheet" type="text/css" href="../css/scoreOrder.css"/>
+	</head>
+	<body>
+		<div class="scoreOrder">
+			<div class="first"><p>积分订单</p></div>
+			<div class="second">
+				<!--订单状态 已完成-->
+				<div class="second-sec">
+					<div class="sec-1">
+						<span>订单号：150319690000</span>
+						<span>下单日期：2015.04.09  18:06:06</span>
+						<span>订单状态：</span>
+						<span>已完成</span>
+					</div>
+				
+					<div class="sec-2 disp">
+						<div class="sec-21 com"><img src="../img/selfCenter/12.png" alt="" /><span class="sec-21-sp1">云南昭通丑苹果</span><span class="sec-21-sp2">6个装</span><span class="sec-21-sp3">x 1</span></div>
+					</div>
+					<div class="sec-3 disp">
+						<div class="sec-31">
+							<p><span>积分:</span><span>58</span></p>
+						</div>
+					</div>
+					<div class="sec-4 disp">
+						<p class="lookdetail">查看详情</p>
+						
+						<button>删除订单</button>
+					</div>
+					
+				</div>
+				<!--订单状态 已完成 结束-->
+				<!--订单状态 已完成-->
+				<div class="second-sec">
+					<div class="sec-1">
+						<span>订单号：150319690000</span>
+						<span>下单日期：2015.04.09  18:06:06</span>
+						<span>订单状态：</span>
+						<span>已完成</span>
+					</div>
+				
+					<div class="sec-2 disp">
+						<div class="sec-21 com"><img src="../img/selfCenter/12.png" alt="" /><span class="sec-21-sp1">云南昭通丑苹果</span><span class="sec-21-sp2">6个装</span><span class="sec-21-sp3">x 1</span></div>
+					</div>
+					<div class="sec-3 disp">
+						<div class="sec-31">
+							<p><span>积分:</span><span>58</span></p>
+						</div>
+					</div>
+					<div class="sec-4 disp">
+						<p class="lookdetail">查看详情</p>
+						<button>删除订单</button>
+					</div>
+			
+				</div>
+				<!--订单状态 已完成 结束-->
+				<!--订单状态 已完成-->
+				<div class="second-sec">
+					<div class="sec-1">
+						<span>订单号：150319690000</span>
+						<span>下单日期：2015.04.09  18:06:06</span>
+						<span>订单状态：</span>
+						<span>已完成</span>
+					</div>
+					
+					<div class="sec-2 disp">
+						<div class="sec-21 com"><img src="../img/selfCenter/12.png" alt="" /><span class="sec-21-sp1">云南昭通丑苹果</span><span class="sec-21-sp2">6个装</span><span class="sec-21-sp3">x 1</span></div>
+					</div>
+					<div class="sec-3 disp">
+						<div class="sec-31">
+							<p><span>积分:</span><span>58</span></p>
+						</div>
+					</div>
+					<div class="sec-4 disp">
+						<p class="lookdetail">查看详情</p>
+						<button>删除订单</button>
+					</div>
+				</div>
+				<!--订单状态 已完成 结束-->
+				<div class="bot-num">
+					<span><</span>
+					<span>1</span>
+					<span>2</span>
+					<span>3</span>
+					<span>4</span>
+					<span>...</span>
+					<span>10</span>
+					<span>></span>
+					<input type="text" value=""/>
+					<span>/10</span>
+					<span>跳转</span>
+				</div>
+			</div>
+			<div class="no-order">
+				<p class="no-order-p">暂无订单</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".lookdetail").click(function(){
+			window.location.href = "#/scoreDetail";
+		});
+		var i = 3;
+		$(".scoreOrder button").click(function() {
+			$(this).parents(".second-sec").slideUp(500);
+			i--;
+			$(".second").css("min-height","505px");
+			if(i <= 0){
+				$(".bot-num").hide();
+				$(".no-order").show();
+			}
+		});
+	</script>
+</html>

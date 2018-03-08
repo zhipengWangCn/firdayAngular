@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="../css/jifendingdan.css" />
+		<link rel="stylesheet" type="text/css" href="../css/alertAddr.css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="fridayWrapJifen">
+			<div class="friJifen">
+				<img src="../img/main/1.png" alt="" />
+				<p>确认兑换信息</p>
+			</div>
+		</div>
+		<div class="jfDDWrap">
+			<!--收货人信息-->
+			<div class="perMessW">
+				<div class="perMeH clearfix">
+					<h5>收货人信息</h5>
+					<p class="newAdr">使用新地址</p>
+				</div>
+				<ul class="adrWrap">
+
+				</ul>
+				<div class="showW ns clearfix">
+					<p>展开其他地址</p>
+					<img src="../img/jifendingdan/show.png" alt="" />
+				</div>
+			</div>
+			<!--商品信息-->
+			<div class="spMessW">
+				<div class="spH5 clearfix">
+					<h5 class="clearfix">商品信息</h5>
+				</div>
+				<div class="spW">
+					<div class="spHead clearfix">
+						<p class="spName">商品名称</p>
+						<p class="spGg">规格</p>
+						<p class="spNum">数量</p>
+						<p class="spMoney">金额</p>
+					</div>
+
+					<ul class="spConW">
+
+					</ul>
+
+				</div>
+				<div class="line"></div>
+			</div>
+			<!--添加备注-->
+			<div class="addBeizhuW">
+				<div class="addBZH5 clearfix">
+					<h5>添加订单备注</h5>
+				</div>
+				<div class="bzInputW">
+					<input type="text" value="" name="beizhu" placeholder="限45个字，请填写有关商品、支付、发票等信息" />
+				</div>
+				<div class="line"></div>
+			</div>
+			<div class="yfMoneyW clearfix">
+				<span class="yfF">应付积分 : </span>
+				<span class="yfMoney">500积分</span>
+			</div>
+			<br clear="all" />
+			<div class="clearfix">
+				<div class="duihuanBtn">确认兑换</div>
+			</div>
+		</div>
+
+		<!--弹出框-->
+		<div class="alertMask">
+		</div>
+		<div class="alertAddrWrap">
+			<h5 class="addH5">添加地址</h5>
+			<div class="aleMessW">
+				<div class="nameW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">收货人姓名 :</span>
+					</p>
+					<div class="inputW nameInpW">
+						<input type="text" name="nameT" value="" placeholder="收货人姓名" />
+					</div>
+				</div>
+				<div class="sele clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">收货地址 :</span>
+					</p>
+					<div id="sheng">
+						<span>请选择市</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="shi">
+						<span>请选择市</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="xian">
+						<span>请选择县</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="sh"></div>
+					<div id="city"></div>
+					<div id="xi"></div>
+				</div>
+				<div class="detDW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">详细地址 :</span>
+					</p>
+					<div class="inputW dzInpW">
+						<input type="text" name="dzT" value="" placeholder="用于接收货物的详细地址" />
+					</div>
+				</div>
+				<div class="phoneW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">联系电话 :</span>
+					</p>
+					<div class="inputW phInpW">
+						<input type="text" name="phT" value="" placeholder="推荐使用手机号" />
+					</div>
+					<span class="spanPH">或固定电话 :</span>
+					<div class="inputW quhInpW">
+						<input type="text" name="quhT" value="" placeholder="区号" />
+					</div>
+					<span class="spanPH"> - </span>
+					<div class="inputW dhInpW">
+						<input type="text" name="dhT" value="" placeholder="电话号码" />
+					</div>
+				</div>
+				<div class="setAddrW clearfix">
+					<img src="../img/jifendingdan/circle0.png" alt="" class="nSelImg" />
+					<p class="setAddrF">设置为常用地址</p>
+				</div>
+				<div class="reSaW">
+					<p class="return">返回</p>
+					<p class="save">保存</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="../js/jifendingdan.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/adress.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/alertAddr.js" type="text/javascript" charset="utf-8"></script>
+</html>

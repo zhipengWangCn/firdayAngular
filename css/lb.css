@@ -1,0 +1,67 @@
+html,
+body {
+	width: 100%;
+}
+
+.lb {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+.lb .content {
+	left: 0;
+	
+	
+}
+
+.lb .turn-btn {
+	width: 120px;
+	height: 18px;
+	position: absolute;
+	bottom: 14px;
+	left: 50%;
+	margin-left: -60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.lb .turn-btn span {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 1px solid #9b9b9b;
+	background-color: #fff;
+}
+
+.lb .turn-btn .select1 {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #4b943d;
+	border: none;
+}
+.lb .lr{
+	width: 1280px;
+	height: 64px;
+	margin: 0 auto;
+	position: relative;
+	top: 218px;
+	
+}
+.lb .left, .lb .right{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	position: absolute;
+}
+.lb .left{
+	
+	left:0;
+}
+.lb .right{
+	
+	right:0;
+}

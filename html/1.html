@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+
+		<TBODY>
+			<TR>
+				<TD height=24 align="center" class="STYLE3"><span id="timeDate"></span><span id="times">18:09:53</span></TD>
+			</TR>
+		</TBODY>
+
+	</body>
+	<script type="text/javascript">
+		var now = new Date();
+
+		function createtime(timeDate, times) {
+			var grt = new Date("3/24/2017 20:00:00");
+			now.setTime(now.getTime() + 250);
+			days = (grt - now) / 1000 / 60 / 60 / 24;
+			dnum = Math.floor(days);
+			hours = (grt - now) / 1000 / 60 / 60 - (24 * dnum);
+			hnum = Math.floor(hours);
+			if(String(hnum).length == 1) {
+				hnum = "0" + hnum;
+			}
+			minutes = (grt - now) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+			mnum = Math.floor(minutes);
+			if(String(mnum).length == 1) {
+				mnum = "0" + mnum;
+			}
+			seconds = (grt - now) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+			snum = Math.round(seconds);
+			if(String(snum).length == 1) {
+				snum = "0" + snum;
+			}
+			document.getElementById(timeDate).innerHTML = dnum + "天";
+			document.getElementById(times).innerHTML = hnum + ":" + mnum + ":" + snum;
+		}
+		//执行示例1
+		setInterval("createtime('timeDate','times')", 250);
+	</script>
+
+</html>

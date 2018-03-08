@@ -1,0 +1,127 @@
+
+.cover1 {
+	width: 169px;
+	height: 499px;
+	position: absolute;
+	top: 217px;
+	background-color: #fff;
+	display: none;
+}
+.cover1 li {
+	width: 109px;
+	height: 22px;
+	border: 1px solid #efeeec;
+	padding: 17px 30px;
+}
+.cover1 li {
+	border-bottom: 0;
+}
+.cover1 li:nth-child(9){
+	border-bottom: 1px solid #efeeec;
+}
+.cover1 li div {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.cover1 li span {
+	font-size: 16px;
+	color: #333;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.cover1-d1 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:26px;
+	background-position:0 -982px;
+}
+.cover1-d2 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:24px;
+	background-position:0 -734px;
+}
+.cover1-d3 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:24px;
+	background-position:0 -662px;
+}
+.cover1-d4 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:24px;
+	background-position:0 -638px;
+}
+.cover1-d5 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:24px;
+	background-position:0 -686px;
+}
+.cover1-d6 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:25px;
+	background-position:0 -830px;
+}
+.cover1-d7 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:24px;
+	width:24px;
+	background-position:0 -806px;
+}
+.cover1-d8 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:25px;
+	width:22px;
+	background-position:0 -465px;
+}
+.cover1-d9 {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:25px;
+	width:27px;
+	background-position:0 -1056px;
+}
+.cover2 {
+	width: 460px;
+	height: 511px;
+	background-color: #ebffe7;
+	border: 1px solid #efeeec;
+	position: absolute;
+	top: 217px;
+	display: none;
+}
+
+.cover2-1 {
+	width: 380px;
+	height: 50px;
+	/*background-color: pink;*/
+	margin: 20px 0 0 40px;
+}
+.cover2-11 {
+	font-size: 16px;
+	color: #549648;
+	vertical-align: top;
+}
+.cover2-12 {
+	display: inline-block;
+}
+.cover2-p1,.cover2-p2 {
+	margin-left: 13px;
+}
+.cover2-p1{
+	margin-bottom: 15px;
+}
+.cover2-12 span {
+	font-size: 14px;
+	padding:0 22px;
+	border-right: 1px solid #4c4e4b;
+	cursor: pointer;
+}
+.cover2-12 .last {
+	padding-right: 0;
+	border-right: 0;
+}
+

@@ -1,0 +1,170 @@
+.scoreOrder {
+	width: 1083px;
+	border: 1px solid #e7e7e7;
+	position: relative;
+}
+.scoreOrder .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.scoreOrder .first p {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.scoreOrder .second {
+	width: 1042px;
+	margin: 20px auto 0;
+}
+
+.scoreOrder .second-sec {
+	width: 1042px;
+	border: 1px solid #e7e7e7;
+	margin-top: 20px;
+}
+.scoreOrder .second-sec .sec-1 {
+	width: 100%;
+	height: 46px;
+	background-color: #f2f2f2;
+	line-height: 46px;
+}
+.scoreOrder .second .second-sec .sec-1 span {
+	font-size: 16px;
+}
+.scoreOrder .second .second-sec .sec-1 span:nth-child(1),.scoreOrder .second .second-sec .sec-1 span:nth-child(2) {
+	color:#333;
+}
+.scoreOrder .second .second-sec .sec-1 span:nth-child(3) {
+	margin-left: 310px;
+}
+.scoreOrder .second .second-sec .sec-1 span:nth-child(2) {
+	margin-left: 130px;
+	color:#4b943d;
+}
+.scoreOrder .second .second-sec .sec-1 span:nth-child(4) {
+	color:#f08200;
+	cursor: pointer;
+	
+}
+.scoreOrder .second .second-sec .sec-1 span:nth-child(1){
+	margin: 0 20px;
+}
+.scoreOrder .second .second-sec .sec-2 {
+	width: 696px;
+	border-right: 1px solid #e7e7e7;
+}
+.scoreOrder .second .second-sec .sec-2 .sec-21 {
+	width: 696px;
+}
+
+.scoreOrder .second .second-sec .sec-2 .com img{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	vertical-align: middle;
+}
+.scoreOrder .second .second-sec .sec-2 .com .sec-21-sp1 {
+	font-size: 16px;
+	color: #666;
+	margin-right: 148px;
+}
+.scoreOrder .second .second-sec .sec-2 .com .sec-21-sp2 {
+	font-size: 14px;
+	color: #999;
+	margin-right: 106px;
+}
+.scoreOrder .second .second-sec .sec-2 .com .sec-21-sp3 {
+	font-size: 14px;
+	color: #666;
+}
+
+.scoreOrder .second .second-sec .disp {
+	display: inline-block;
+}
+.scoreOrder .second .second-sec .sec-3 {
+	width: 208px;
+	height: 120px;
+	border-right: 1px solid #e7e7e7;
+	text-align: center;
+	line-height: 120px;
+}
+
+.scoreOrder .second .second-sec .sec-3 p {
+	font-size: 14px;
+	color: #666;
+}
+
+.scoreOrder .second .second-sec .sec-4 {
+	width: 126px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.scoreOrder .second .second-sec .sec-4 p {
+	font-size: 14px;
+	color: #4b943d;
+	margin-top: 35px;
+}
+.scoreOrder .second .second-sec .sec-4  button {
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #f08200;
+	margin-top: 12px;
+}
+.scoreOrder .second .bot-num {
+	width: 820px;
+	height: 34px;
+	margin: 40px auto;
+}
+.scoreOrder .second .bot-num span , .scoreOrder .second .bot-num input{
+	display: inline-block;
+	width: 50px;
+	height: 32px;
+	font-size: 22px;
+	color: #666;
+	line-height: 32px;
+	text-align: center;
+	margin-right: 18px;
+}
+
+.scoreOrder .second .bot-num input {
+	vertical-align: top;
+	border: 1px solid #e7e7e7;
+}
+
+.scoreOrder .second .bot-num span:nth-child(1) {
+	background-color: #ddd;
+	color: #fff;
+	border: 1px solid #e7e7e7;
+}
+.scoreOrder .second .bot-num span:nth-child(2),.scoreOrder .second .bot-num span:nth-child(8) {
+	background-color: #498e3d;
+	color: #fff;
+	border: 1px solid #e7e7e7;
+}
+.scoreOrder .second .bot-num span:nth-child(11) {
+	font-size: 16px;
+	color: #fff;
+	background-color: #f08200;
+}
+.scoreOrder .no-order {
+	width:100%;
+	height: 566px;
+	position: absolute;
+	top: 56px;
+	left: 0;
+	display: none;
+	line-height: 566px;
+}
+.scoreOrder .no-order .no-order-p {
+	text-align: center;
+	font-size: 50px;
+	color: #F08002;
+}
+
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cover.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/tankuang.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/selfCenter.css"/>
+	</head>
+	<body ng-app="myApp" ng-controller="myCtrlCover">
+		<!--头部-->
+		<div class="head">
+			<div class="top">
+				<div class="top-mid">
+					<div class="left">
+						<span class="l-span1">所在城市:</span>
+						<span class="l-span2">北京市朝阳区</span>
+						<img src="../img/main/7.png" alt="" />
+					</div>
+					<div class="right">
+						<span class="iflogin-show">您好,</span>
+						<span class="iflogin-show mainphone">17701269859</span>
+						<span class="r-span3 iflogin-show tuichu">退出</span>
+						<a href="login.html"><span class="loginfir-f iflogin-hide">登录</span></a>
+						<a href="register.html"><span class="registerfir-f iflogin-hide">注册</span></a>
+						<a href="selfCenter.html#/iorder"><span class="r-span4">我的订单</span></a>
+						<a href="selfCenter.html#/iMessage"><span class="r-span5">我的消息</span></a>
+						<span class="r-span6">我是商家</span>
+						<span class="r-span7"><img src="../img/main/5.png" alt="" />&nbsp;&nbsp;&nbsp;<em>400-800-8820</em></span>
+					</div>
+				</div>
+			</div>
+			<div class="middle clearfix">
+				<div class="mi-d1"><img src="../img/main/1.png" alt="" /></div>
+				<div class="mi-d2">
+					<div class="mi-d21"><input type="text" placeholder="请输入关键字进行搜索"/><img src="../img/main/8.png" alt="" /></div>
+					
+					<span>热门&nbsp;:</span>
+					<span class="mi-span2">奇异果</span>
+					<span class="mi-span3">牛排</span>
+					<span class="mi-span4">山竹</span>
+					<span class="mi-span5">牛油果</span>
+				</div>
+				<div class="mi-d3"><a href="selfCenter.html#/iAccount"><img src="../img/main/3.png" alt="" /><span>个人中心</span></a></div>
+				<div class="mi-d4"><a href="route.html#/gouwuche"><img src="../img/main/6.png" alt="" /><span>购物车</span></a></div>
+				<div class="mi-d5"><img src="../img/main/dhk.png" alt="" /><span></span></div>
+			</div>
+			<div class="bottom clearfix">
+				<div class="one"><span class="bo-span1">全部分类<img src="../img/main/9.png" alt="" /></span></div>
+				<div class="color1 two"><a href="route.html#/"><span>首页</span></a></div>
+				<div class="two"><a href="route.html#/tongcheng"><span>同城</span></a></div>
+				<div class="two"><a href="route.html#/aboutFiriday"><span>礼拜五</span></a></div>
+				<div class="two"><a href="route.html#/jifenshangcheng"><span>积分商城</span></a></div>
+				<div class="two"><a href="route.html#/daohang"><span>导航+</span></a></div>
+			</div>
+		</div>
+		<!--头部结束-->
+		
+		<!--中间内容部分-->
+		<div class="content">
+			<div class="con-mid clearfix">
+				<div class="left">
+					<p class="l-p1">个人中心</p>
+					<p class="l-p2"><span>交易管理</span><span>></span></p>
+					<ul>
+						<li class="zhanghu">我的账户</li>
+						<li class="dingdan">我的订单</li>
+						<li class="jifen">我的积分</li>
+						<li class="jifendingdan">积分订单</li>
+						<li class="qianbao">我的钱包</li>
+					</ul>
+					<p class="l-p3"><span>会员资料</span><span>></span></p>
+					<ul>
+						<li class="ziliao">个人资料</li>
+						<li class="address">地址管理</li>
+						<li class="shoucang">我的收藏</li>
+						<li class="liulan">最近浏览</li>
+						<li class="mima">修改密码</li>
+					</ul>
+					<p class="l-p4"><span>站内信</span><span>></span></p>
+					<ul>
+						<li class="message">我的消息</li>
+						<li class="fankui">意见反馈</li>
+					</ul>
+				</div>
+				<div class="right">
+					<ng-view></ng-view>
+				</div>
+			</div>
+		</div>
+		
+		<!--中间内容部分结束-->
+		
+		
+		
+		<!--尾部-->
+		<div class="foot">
+			<div class="fo-1">
+				<div class="fo-1-mid">
+					<div class="xuebi1f">
+						<p class="xuebi1"></p>
+						<span>优鲜保障</span>
+					</div>
+					<div class="xuebi2f">
+						<p class="xuebi2"></p>
+						<span>全程监控</span>
+					</div>
+					<div class="xuebi3f">
+						<p class="xuebi3"></p>
+						<span>礼拜五特惠</span>
+					</div>
+					<div class="xuebi4f">
+						<p class="xuebi4"></p>
+						<span>基地直供</span>
+					</div>
+					<div class="xuebi5f">
+						<p class="xuebi5"></p>
+						<span>准时送达</span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="fo-2">
+				<div class="fo-2-mid">
+					<div class="fo-2-mid-d1">
+						<img src="../img/main/1.png" alt="" />
+						<p>
+							<span>服务时间：08：-22:00</span>
+							<img src="../img/main/5.png" alt="" />
+							<em>400-800-8820</em>
+						</p>
+					</div>
+					<div class="fo-2-mid-d2"><img src="../img/main/4.png" alt="" /><p>礼拜五官方微信</p></div>
+					<div class="fo-2-mid-d3"><img src="../img/main/4.png" alt="" /><p>礼拜五App</p></div>
+					<div class="fo-2-mid-d4"><p>关于礼拜五</p><p>新用户注册</p><p>在线下单</p><p>支付方式</p></div>
+					<div class="fo-2-mid-d5"><p>配送说明</p><p>运费说明</p><p>配送方式</p><p>发票说明</p></div>
+					<div class="fo-2-mid-d6"><p>售后服务</p><p>退换货说明</p><p>服务保障承诺</p><p>验货与签收</p></div>
+					<div class="fo-2-mid-d7"><p>加盟礼拜五</p><p>加盟条款</p><p>公司简介</p><p>服务协议</p></div>
+				</div>
+			</div>
+			<div class="fo-3">
+				<div class="fo-3-mid"><p>版权所有 © 礼拜五  保留所有权利 | 沪ICP备12042163</p><p>礼拜五  纵享品质</p></div>
+			</div>
+		</div>
+		<!--尾部结束-->
+		<!--全部分类的隐藏部分-->
+		<div class="father">
+		<ul class="cover1">
+			<li><div class="cover1-d1"></div><span>新鲜水果</span></li>
+			<li><div class="cover1-d2"></div><span>生猛海鲜</span></li>
+			<li><div class="cover1-d3"></div><span>肉类家禽</span></li>
+			<li><div class="cover1-d4"></div><span>蛋奶素食</span></li>
+			<li><div class="cover1-d5"></div><span>田园蔬菜</span></li>
+			<li><div class="cover1-d6"></div><span>零食酒水</span></li>
+			<li><div class="cover1-d7"></div><span>粮油杂货</span></li>
+			<li><div class="cover1-d8"></div><span>礼品卡券</span></li>
+			<li><div class="cover1-d9"></div><span>家具用品</span></li>
+		</ul>
+		<div class="cover2">
+			<div class="cover2-1" ng-repeat="item in fruit">
+				<span class="cover2-11">{{item.left}}</span>
+				<div class="cover2-12">
+					<p class="cover2-p1"><span>{{item.right1}}</span><span>{{item.right2}}</span><span>{{item.right3}}</span><span class="last">{{item.right4}}</span></p>
+					<p class="cover2-p2"><span>{{item.right1}}</span><span>{{item.right2}}</span><span>{{item.right3}}</span><span class="last">{{item.right4}}</span></p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--全部分类的隐藏部分结束-->
+		
+		<!--弹窗-->
+		<div class="tankuang"></div>
+		<div class="back">
+				<div class="small-k">
+					<p>建议您的收货地址: <span class="green"></span></p>
+					<div class="sele">
+						<div id="sheng"><span>请选择市</span><div><img src="../img/main/11.png" alt="" /></div></div><span>省</span>
+						<div id="shi"><span >请选择市</span><div><img src="../img/main/11.png" alt="" /></div></div><span>市</span>
+						<div id="xian"><span>请选择县</span><div><img src="../img/main/11.png" alt="" /></div></div><span class="last-sp">县</span>
+						<div id="sh"></div>
+						<div id="city"></div>
+						<div  id="xi"></div>
+					</div>
+					<button>保存</button>
+				</div>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/configSelf.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/self.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/adress.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>
+
+
+
+
+
+

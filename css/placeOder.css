@@ -1,0 +1,279 @@
+.middle {
+	display: none;
+}
+.bottom {
+	display: none;
+}
+/*div,img{
+	vertical-align: top;
+}*/
+/*头部部分*/
+.oder {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+	
+}
+.oder1 {
+	width: 1280px;
+	height: 130px;
+	margin: 0 auto;
+}
+.oder1 img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+	
+}
+.oder1 .list-w {
+	float: right;
+}
+.oder1 p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 35px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+}
+.oder1 .my-oder {
+	color: #F08200;
+}
+.oder-cg{
+	width: 632px;
+	height: 242px;
+	margin: 80px auto 0;
+	
+}
+.oder-cg div{
+	background: url(../img/placeOder/oder.png) no-repeat;
+	background-position: 100%;
+	height:78px;
+	width:78px;	
+	margin: 0 auto 60px;
+}
+.oder-cg p{
+	font-size:24px;
+	color: #666;
+	
+	
+}
+.oder-cg p em{
+	font-size: 24px;
+	color: #f08200;
+}
+.address{
+	width: 1278px;
+	height: 36px;
+	background-color: #f4fff2;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto;
+	line-height: 36px;
+}
+.address div{
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:20px;
+	width:15px;
+	background-position:0 -132px;
+	margin:8px 0 0 10px;
+	float: left;
+}
+.address span{
+	float: left;
+	font-size:14px ;
+	color: #666;
+	margin-left: 10px;
+}
+.money{
+	width: 1280px;
+	height: 106px;
+	margin: 0 auto;
+	line-height: 106px;
+	overflow: hidden;
+}
+.money span{
+	font-size: 18px;
+	color: #666;
+}
+.money span:nth-child(1){
+	float: left;
+}
+.money span:nth-child(1) em{
+	color: #d20a11;
+	font-size: 24px;
+}
+.money span:nth-child(2){
+	float: right;
+	font-size: 14px;
+}
+.pay{
+	width:1280px ;
+	height: 158px;
+	
+	margin: 0 auto;
+}
+
+.pay .pp {
+	width:1280px ;
+	height:38px ;
+	
+}
+.pay .pp p {
+	
+	font-size:18px ;
+	color:#666 ;
+	
+}
+.pay .method{
+	width: 1280px;
+	height: 118px;
+	border-top: 1px solid #e5e5e5;
+	
+}
+.pay .method .method1{
+	margin-right:36px ;
+	height: 118px;
+	margin-top: 0;
+	float: left;
+	
+}
+.pay .method .method1 img{
+	vertical-align: top;
+}
+.pay .method .method1 img:nth-child(1){
+	width:16px;
+	height:16px ;
+	margin-top:52px;
+	
+}
+.pay .method .method1 img:nth-child(2){
+	margin:41px 0 0 10px;
+	width:134px;
+	height:36px ;
+	border: 1px solid #e5e5e5;
+}
+
+.pay .method .method2 img:nth-child(2){
+	width:194px;
+	height:36px ;
+}
+.pkind,.pkind2{
+	width: 1280px;
+	height: 395px;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto 40px;
+	display: block;
+}
+.pk1,.pk2,.pk3{
+	float: left;	
+}
+.pk1{
+	width: 168px;
+	text-align: center;
+	margin-left: 294px;
+}
+.pk1 p,.pk3 p{
+	font-size: 18px;
+	color: #595959;
+	margin-top: 60px;
+}
+.pk1 img,.pk3 img{
+	width: 100%px;
+	margin-top: 40px;
+}
+.pk1 button{
+	width: 168px;
+	height: 45px;
+	border-radius: 3px;
+	margin-top: 38px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #f08200;
+}
+.pk2{
+	font-size: 18px;
+	color: #595959;
+	
+	margin:180px 0 0 148px;
+}
+.pk3{
+	width: 218px;
+	text-align: center;
+	margin-left: 148px;
+}
+.pkind2{
+	display: none;
+}
+.pkind2 .pk1{
+	width: 220px;
+	text-align: center;
+	margin-left: 248px;
+	
+}
+.pkind2 .pk1 img{
+	
+	margin-top: 60px;
+}
+.pkind2 .pk2{
+	width: 1px;
+	height: 275px;
+	background-color:#e5e5e5 ;
+	margin-top: 60px;
+}
+.pkind2 .pk3{
+	margin-left:163px ;
+}
+.mb{
+	width: 100%;
+	height: 100%;
+	background-color: #9b9b9b;
+	opacity: 0.7;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	display: none;
+}
+.tk{
+	width: 646px;
+	height: 430px;
+	border: 5px solid #e2e2e2;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-323px,-230px);
+	background-color: #fff;
+	display: none;
+	text-align: center;
+}
+.tk p:nth-child(1){
+	font-size: 30px;
+	color: #f08200;
+	margin-top:96px ;
+}
+.tk p:nth-child(2){
+	font-size: 18px;
+	color: #707070;
+	margin-top:52px ;
+}
+.tk button{
+	width: 170px;
+	height: 72px;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 70px;
+	border-radius: 3px;
+}
+.tk button em{
+	font-size: 14px;
+	color: #fff;
+}
+.tk button:nth-child(3){
+	background-color:#f08200 ;
+	margin-right: 60px;
+}
+.tk button:nth-child(4){
+	background-color:#498e3d ;
+}
+.picture, .lj, .tk button {
+	cursor: pointer;
+}

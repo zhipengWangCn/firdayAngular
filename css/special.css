@@ -1,0 +1,41 @@
+.middle {
+	display: block;
+}
+.bottom {
+	display: block;
+}
+body,html{
+	width: 100%;
+}
+.special-wp{
+	width: 100%;
+	
+}
+.special{
+	margin: 20px auto 0;
+	width: 1260px;
+	height: 54px;
+	background-color: #f4f4f4;
+	line-height: 54px;
+	padding-left: 20px;
+}
+.special p{
+	font-size: 14px;
+	color: #666;
+}
+.special p em{
+	font-size: 14px;
+	color: #666;
+}
+.special-wp .im{
+	width: 1280px;
+	height: 500px;
+	margin: 20px auto 0;
+}
+.special-wp .im img{
+	width: 100%;
+	height: 100%;
+}
+.special-wp .im:nth-child(4){
+	margin-bottom: 20px;
+}

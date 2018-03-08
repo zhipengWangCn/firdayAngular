@@ -1,0 +1,84 @@
+.iaccount {
+	width: 1083px;
+	height: 622px;
+	border: 1px solid #e7e7e7;
+}
+.iaccount .one, .iaccount .two {
+	width: 1082px;
+	border: 1px solid #e7e7e7;
+}
+.iaccount .one {
+	height: 219px;
+	background-color: #f4fff2;
+}
+.iaccount .two {
+	height: 379px;
+	background-color: palevioletred;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.iaccount .two img{
+	width: 100%;
+}
+.yellow-round {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	margin: 40px 40px;
+	float: left;
+}
+.yellow-round img {
+	width: 100%;
+	height: 100%;
+}
+
+.iaccount .one .acc {
+	width: 160px;
+	height: 20px;
+	float: left;
+	margin: 95px 220px 0 0;
+	font-size: 18px;
+}
+.iaccount .one .acc span:nth-child(1){
+	color: #828582;
+}
+.iaccount .one .acc span:nth-child(2),.one .fir p:nth-child(2),.one .sec p:nth-child(2),.one .thr p:nth-child(2){
+	color: #e85e35;
+}
+.one .thr p:nth-child(1){
+	color:#62a255 ;
+}
+
+.one .fir,.one .sec,.one .thr{
+	float: left;
+	font-size: 18px;
+	height: 69px;
+}
+.one .fir {
+	width: 74px;
+	margin-top: 80px;	
+	text-align: center;
+}
+.one .fir p:nth-child(1) {
+	margin-bottom: 32px;
+}
+.one .sec {
+	width: 74px;
+	margin: 66px 80px 0;
+	margin-top: 80px;
+}
+.one .sec p:nth-child(1) {
+	margin-bottom: 32px;
+}
+.one .thr {
+	width: 118px;
+	margin-top: 80px;
+}
+.one .thr p:nth-child(1) {
+	margin-bottom: 32px;
+	
+}
+.iaccount .one p{
+	cursor: pointer;
+}

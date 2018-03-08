@@ -1,0 +1,170 @@
+.iorder {
+	width: 1083px;
+	/*height: 622px;*/
+	border: 1px solid #e7e7e7;
+}
+.iorder .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.iorder .first p {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.iorder .second {
+	width: 1042px;
+	/*border: 1px solid #e7e7e7;*/
+	margin: 20px auto 0;
+}
+.iorder .second .second-fir {
+	width: 100%;
+}
+.iorder .second .second-fir div,.iorder .second .second-fir span {
+	float: left;
+}
+.iorder .second .second-fir .huishou{
+	float: right;
+	margin: 5px 0 0;
+	padding: 0;
+	color: #4b943d;
+	border-bottom: 1px solid #4b943d;
+	line-height: 15px;
+}
+.iorder .second .second-fir div {
+	width: 1px;
+	height: 20px;
+	background-color: #999;
+	margin-top: 5px;
+}
+.iorder .second .second-fir span {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0 25px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.iorder .second .second-fir .sp {
+	background-color: #f08200;
+}
+.second-sec {
+	width: 1042px;
+	/*height: 288px;*/
+	border: 1px solid #e7e7e7;
+	margin-top: 20px;
+}
+.second-sec .sec-1 {
+	width: 100%;
+	height: 46px;
+	background-color: #f2f2f2;
+	line-height: 46px;
+}
+.iorder .second .second-sec .sec-1 span {
+	font-size: 16px;
+}
+.iorder .second .second-sec .sec-1 span:nth-child(1),..iorder .second .second-sec .sec-1 span:nth-child(2),.iorder .second .second-sec .sec-1 span:nth-child(4) {
+	color:#333;
+}
+.iorder .second .second-sec .sec-1 span:nth-child(4) {
+	margin-left: 180px;
+}
+.iorder .second .second-sec .sec-1 span:nth-child(3) {
+	color:#4b943d;
+}
+.iorder .second .second-sec .sec-1 span:nth-child(5) {
+	color:#f08200;
+	cursor: pointer;
+	
+}
+.iorder .second .second-sec .sec-1 span:nth-child(1),.iorder .second .second-sec .sec-1 span:nth-child(2),.iorder .second .second-sec .sec-1 span:nth-child(3) {
+	margin: 0 20px;
+}
+.iorder .second .second-sec .sec-2 {
+	width: 696px;
+	border-right: 1px solid #e7e7e7;
+}
+.iorder .second .second-sec .sec-2 .sec-21 {
+	width: 696px;
+	/*height: 120px;*/
+	border-bottom: 1px solid #e7e7e7;
+	/*background-color: green;*/
+}
+
+.iorder .second .second-sec .sec-2 .com img{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	vertical-align: middle;
+}
+.iorder .second .second-sec .sec-2 .com .sec-21-sp1 {
+	font-size: 16px;
+	color: #666;
+	margin-right: 148px;
+}
+.iorder .second .second-sec .sec-2 .com .sec-21-sp2 {
+	font-size: 14px;
+	color: #999;
+	margin-right: 106px;
+}
+.iorder .second .second-sec .sec-2 .com .sec-21-sp3 {
+	font-size: 14px;
+	color: #666;
+}
+
+.iorder .second .second-sec .disp {
+	display: inline-block;
+}
+.iorder .second .second-sec .sec-3 {
+	/*width: 130px;*/
+	width: 208px;
+	/*height: 50px;*/
+	border-right: 1px solid #e7e7e7;
+	text-align: center;
+	/*line-height: 120px;*/
+	vertical-align: top;
+	text-align: center;
+}
+
+.iorder .second .second-sec .sec-3 p {
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+
+.iorder .second .second-sec .sec-4 {
+	width: 126px;
+	text-align: center;
+	vertical-align: top;
+	text-align: center;
+}
+
+.iorder .second .second-sec .sec-4 p {
+	font-size: 14px;
+	color: #4b943d;
+	line-height: 40px;
+}
+.iorder .second .second-sec .sec-4 .sec-41 button {
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+	background-color: #f08200;
+	text-align: center;
+}
+.iorder .second .second-sec .sec-4 .sec-41 .sec-41-bott2 {
+	margin-top: 12px;
+	background-color: #999;
+}
+.iorder .second .second-sec .sec-4 .sec-41 .wuliu {
+	margin-top: 12px;
+	background-color: #f08200;
+}
+.iorder .second .second-sec .sec-4 .sec-41 .jiaoyi {
+	margin-top: 12px;
+	background-color: #f08200;
+}
+

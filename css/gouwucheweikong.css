@@ -1,0 +1,79 @@
+.middle {
+	display: none;
+}
+.bottom {
+	display: none;
+}
+
+/*头部部分*/
+.fridayWrapGWC {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+}
+.friGwc {
+	width: 1280px;
+	margin: 0 auto;
+}
+.friGwc img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+}
+.friGwc .listW {
+	float: right;
+}
+.friGwc p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 35px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+}
+.friGwc .myGWCF {
+	color: #F08200;
+}
+/*购物车信息部分*/
+.gwcConW {
+	width: 1280px;
+	height: 490px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.gwcConW .gwcConH {
+	width: 354px;
+	height: 120px;
+	margin: 185px auto;
+}
+.gwcConW .gwcConH img {
+	float: left;
+}
+.gwcConW .gwcConH .gwcHF {
+	display: inline-block;
+	color: #666;
+	font-size: 18px;
+	line-height: 58px;
+	margin-left: 10px;
+}
+.gwcConHRight {
+	float: left;
+	height: 110px;
+	margin-top: 15px;
+	margin: 15px 0 0 30px;
+}
+.kongF {
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: #666;
+}
+.seeSy {
+	font-size: 18px;
+	border-radius: 5px;
+	width: 170px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #EC6A17;
+	color: #fff;
+}

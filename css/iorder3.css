@@ -1,0 +1,207 @@
+.iorder3 {
+	width: 1083px;
+	border: 1px solid #e7e7e7;
+}
+.iorder3 .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.iorder3 .first p {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.iorder3 .second {
+	width: 1042px;
+	margin: 20px auto 0;
+}
+.iorder3 .second .second-fir {
+	width: 100%;
+}
+.iorder3 .second .second-fir div,.iorder3 .second .second-fir span {
+	float: left;
+}
+.iorder3 .second .second-fir span:hover {
+	background-color: #F08200;
+}
+.iorder3 .second .second-fir .huishou{
+	float: right;
+	margin: 5px 0 0;
+	padding: 0;
+	color: #4b943d;
+	border-bottom: 1px solid #4b943d;
+	line-height: 15px;
+}
+.iorder3 .second .second-fir div {
+	width: 1px;
+	height: 20px;
+	background-color: #999;
+	margin-top: 5px;
+}
+.iorder3 .second .second-fir span {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0 25px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.iorder3 .second .second-fir .sp {
+	background-color: #f08200;
+}
+/*ul部分*/
+.iorder3 .mainall {
+	width: 1042px;
+	margin: 0 auto;
+}
+.iorder3 .mainall .mainli{
+	width: 1042px;
+	height: auto;
+}
+.iorder3 .mainall .mainli .tou {
+	width: 1037px;
+	height: 46px;
+	background-color: #f2f2f2;
+	line-height: 46px;
+	font-size: 16px;
+	margin-top: 20px;
+	border: 1px solid #e7e7e7;
+}
+.iorder3 .mainall .tou p,.iorder3 .mainall .tou span {
+	float: left;
+}
+.iorder3 .tou .tp1 {
+	width: 205px;
+	margin-left: 20px;
+}
+.iorder3 .tou .tp2 {
+	width: 320px;
+}
+.iorder3 .tou .tp3 {
+	width: 168px;
+}
+.iorder3 .mainall .mainli .tou .tp4 {
+	margin-left: 154px;
+}
+.iorder3 .mainall .mainli .tou .tp4 span{
+	width: 80px;
+	text-align: left;
+}
+.iorder3 .tou .tp4 span:nth-child(2){
+	color:#f08200 ;
+}
+
+.iorder3 .table {
+	display: table;
+	font-size: 14px;
+}
+
+
+.iorder3 .table .leftall {
+	display: table-cell;
+	width: 695px;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+.iorder3 .table .leftall dd {
+	width: 695px;
+	height: 120px;
+	line-height: 120px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.iorder3 .leftall dd p,.iorder3 .leftall dd img{
+	float: left;
+}
+.iorder3 .leftall dd p:nth-child(2) {
+	width: 215px;
+}
+.iorder3 .leftall dd p:nth-child(3) {
+	width: 180px;
+}
+.iorder3 .leftall dd p:nth-child(4) {
+	width: 180px;
+}
+.iorder3 .leftall dd img {
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+.iorder3 .table .middleall {
+	display: table-cell;
+	width: 205px;
+	text-align:center;
+	vertical-align: middle;
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+.iorder3 .table .rightall {
+	width: 135px;
+	display: table-cell;
+	vertical-align: middle;
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+.iorder3 .table .rightall p {
+	width:width: 135px; 
+	text-align:center;
+}
+
+.iorder3 .table .rightall .lookxq {
+	color: #4b943d;
+	cursor: pointer;
+}
+
+.iorder3 .table .rightall .btn {
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #f08200;
+	color: #fff;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-left: 22px;
+	cursor: pointer;
+}
+
+
+/*分页*/
+.iorder3 .bot-num {
+	width: 820px;
+	height: 34px;
+	margin: 40px auto;
+}
+.iorder3  .bot-num span , .iorder3 .bot-num input{
+	display: inline-block;
+	width: 50px;
+	height: 32px;
+	font-size: 22px;
+	color: #666;
+	line-height: 32px;
+	text-align: center;
+	margin-right: 18px;
+}
+
+.iorder3 .bot-num input {
+	vertical-align: top;
+	border: 1px solid #e7e7e7;
+}
+
+.iorder3  .bot-num span:nth-child(1) {
+	background-color: #ddd;
+	color: #fff;
+	border: 1px solid #e7e7e7;
+}
+.iorder3  .bot-num span:nth-child(2),.iorder3 .bot-num span:nth-child(8) {
+	background-color: #498e3d;
+	color: #fff;
+	border: 1px solid #e7e7e7;
+}
+.iorder3 .bot-num span:nth-child(11) {
+	font-size: 16px;
+	color: #fff;
+	background-color: #f08200;
+}
+
+
+

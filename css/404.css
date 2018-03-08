@@ -1,0 +1,54 @@
+body,html{
+	width: 100%;
+	/*height: 100%;*/
+}
+.four{
+	width: 100%;
+	/*height: 100%;*/
+}
+.four .pic1{
+	width:515px ;
+	height:144px;
+	
+	margin: 250px auto 0;
+}
+.four .pic2{
+	width:758px ;
+	height:68px;
+	
+	margin: 60px auto 0;
+}
+.four .pic3{
+	
+	margin: 52px  auto 0;
+	text-align: center;
+}
+.pic3 p{
+	font-size: 24px	;
+	color: #666;
+}
+.pic4{
+
+	
+	width: 442px;
+	height: 45px;
+	margin:100px auto 0 ;
+	line-height: 45px;
+	
+	
+}
+.pic4 span{
+	font-size:18px ;
+	text-align: center;
+	padding:13.5px 30px;
+	color:#fff ;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.pic4 span:nth-child(1){
+	background-color: #f08200;
+}
+.pic4 span:nth-child(2){
+	margin-left: 100px;
+	background-color: #498e3d;
+}

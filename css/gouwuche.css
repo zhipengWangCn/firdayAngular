@@ -1,0 +1,256 @@
+.middle {
+	display: none;
+}
+.bottom {
+	display: none;
+}
+/*头部部分*/
+.fridayWrapGWC {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+}
+.friGwc {
+	width: 1280px;
+	margin: 0 auto;
+}
+.friGwc img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+}
+.friGwc .listW {
+	float: right;
+}
+.friGwc p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 35px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+}
+.friGwc .myGWCF {
+	color: #F08200;
+}
+/*购物车信息部分*/
+.gwcConW {
+	width: 1280px;
+	margin: 0 auto;
+}
+.gwcConW .gwcConH {
+	height: 58px;
+}
+.gwcConW .gwcConH .gwcImg {
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:20px;width:22px;background-position:0 -490px;
+	display: inline-block;
+	margin-top: 19px;
+}
+.gwcConW .gwcConH .gwcHF {
+	display: inline-block;
+	color: #666;
+	font-size: 18px;
+	line-height: 58px;
+	margin-left: 10px;
+}
+.dianW {
+	border: 1px solid #E2E2E2;
+	margin-bottom: 20px;
+}
+.dianH {
+	width: 100%;
+	/*height: 45px;*/
+	background-color: #f2f2f2;
+}
+.dianH span {
+	font-size: 16px;
+	float: left;
+	line-height: 45px;
+}
+.dianH .xuankaung {
+	display: inline-block;
+	margin: 15px 20px;
+	float: left;
+}
+
+.gwcConW .hasSel {	
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:16px;width:16px;background-position:0 -216px;
+}
+.gwcConW .nhasSel {
+	background-color: red;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:16px;width:16px;background-position:0 -152px;
+}
+.dianH .dianName {
+	width: 350px;
+}
+.dianH .guige, .dianH .danjia, .dianH .shuliang, .dianH .jine, .dianH .caozuo {
+	width: 170px;
+	text-align: center;
+}
+.DianUl {
+	overflow: hidden;
+}
+.DianUl li {
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.DianUl .xuankaung {
+	display: inline-block;
+	float: left;
+	margin: 32px 20px 0;
+}
+.DianUl .gwcDet {
+	width: 350px;
+	float: left;
+}
+.DianUl .gwcDet img {
+	float: left;
+	margin-right: 20px;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #E2E2E2;
+}
+.DianUl .yn8 {
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	color: #666;
+	font-size: 14px;	
+}
+.DianUl .guiggeNum, .DianUl .danjiaNum {
+	color: #999;
+	font-size: 14px;
+}
+.DianUl .jineNum {
+	color: #666;
+	font-size: 14px;
+}
+.DianUl .delete {
+	color: #498E3D;
+	font-size: 14px;
+}
+.DianUl .guiggeNum, .DianUl .danjiaNum, .DianUl .jineNum, .DianUl .delete{
+	width: 170px;
+	text-align: center;
+	float: left;
+	height: 80px;
+	line-height: 80px;
+}
+.DianUl .jiajianW {
+	width: 140px;
+	text-align: center;
+	float: left;
+	margin: 24px 0 0 30px;
+}
+.DianUl .fdR3-4-2, .DianUl .fdR3-4-4 {
+	width: 32px;
+	height: 32px;
+	background-color: #f2f2f2;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	float: left;
+	/*margin-top: 23px;*/
+	cursor: pointer;
+}
+.DianUl .fdR3-4-2NS span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:3px;width:15px;background-position:0 -94px;
+	margin-top: 14.5px;	
+}
+.DianUl .fdR3-4-2S span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:3px;width:15px;background-position:0 -97px;
+	margin-top: 14.5px;
+}
+.DianUl .fdR3-4-3 {
+	width: 45px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 18px;
+	color: #666;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	float: left;
+	/*margin-top: 23px;*/
+}
+.DianUl .fdR3-4-4 span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:15px;width:15px;background-position:0 -117px;
+	margin-top: 9.5px;
+}
+.DianUl .AllMoney {
+	height: 80px;
+}
+.dianW .AllMoney p{
+	height: 80px;
+	line-height: 80px;
+	float: right;
+}
+.AllMoney .aMNum {
+	font-size: 24px;
+	color: #ff5757;
+	margin-right: 70px;
+}
+.AllMoney .aMF {
+	font-size: 18px;
+	color: #666;
+	margin-right: 20px;
+}
+.quanXuanW {
+	height: 130px;
+}
+.quanXuanW .quanXuanF, .quanXuanW .plDelF {
+	color: #498E3D;
+	font-size: 14px;
+	float: left;
+	height: 130px;
+	line-height: 130px;
+	cursor: pointer;
+}
+.quanXuanW .quanXuanF {
+	margin: 0 45px 0 20px;
+}
+
+.qxAllMo, .qxAMNum, .buy {
+	display: inline-block;
+	float: right;
+	
+}
+.buy {
+	margin-left: 30px;
+	font-size: 20px;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 40px;
+	background-color: #F08200;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.qxAllMo {
+	font-size: 18px;
+	color: #666;	
+	height: 130px;
+	line-height: 130px;
+}
+.qxAMNum {
+	color: #FF5757;
+	font-size: 24px;
+	margin-left: 10px;
+	height: 130px;
+	line-height: 130px;
+}
+.xuankaung, .delete  {
+	cursor: pointer;
+}

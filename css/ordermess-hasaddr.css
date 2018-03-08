@@ -1,0 +1,496 @@
+.middle {
+	display: none;
+}
+.bottom {
+	display: none;
+}
+
+/*头部部分*/
+.fridayWrapGWC {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+}
+.friGwc {
+	width: 1280px;
+	margin: 0 auto;
+}
+.friGwc img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+}
+.friGwc .listW {
+	float: right;
+}
+.friGwc p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 35px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+}
+.friGwc .myGWCF {
+	color: #F08200;
+}
+.orderno-wrap {
+	width: 1280px;
+	margin: 0 auto;
+}
+/* 收货人信息部分 */
+/*收货人信息部分*/
+.jfDDWrap {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.jfDDWrap h5 {
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	color: #666666;
+	float: left;
+}
+.perMessW .newAdr {
+	font-size: 14px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	width: 90px;
+	float: right;
+	background-color: #F08200;
+	border-radius: 5px;
+	margin-top: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.adrWrap li {
+	width: 100%;
+	height: 36px;
+	border: 1px solid #F4FFF2;
+	background-color: #F4FFF2;
+	margin-bottom: 10px;
+}
+.adrWrap span {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	line-height: 36px;
+}
+.adrWrap .selAdr {
+	height: 36px;
+	border: 1px solid #E2E2E2;
+}
+.adrWrap img {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-left: 16px;
+	margin: 10px 10px 0 16px;
+}
+.mess {	
+	color: #666;	
+	margin-right: 10px;
+}
+.defaultAdr {	
+	color: #999;
+}
+.adrWrap .setDefAdr {
+	float: right;
+	margin-right: 22px;
+	color: #F08200;
+}
+.adrWrap .xg, .adrWrap .delete {
+	float: right;
+	margin-right: 22px;
+	color: #498E3D;
+	cursor: pointer;
+}
+/* 展开 和 收起*/
+.showW {
+	margin-top: 15px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #E2E2E2;
+}
+.showW p {
+	color: #498E3D;
+	font-size: 16px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+.showW img {
+	float: left;
+	vertical-align: middle;
+	margin: 4px 0 0 15px;
+}
+
+/* 商品信息部分*/
+.spall-wrap {
+	width: 1280px;
+	margin: 0 auto;
+}
+.spmes {
+	width: 1280px;
+	margin: 0 auto;
+	height: 68px;
+	line-height: 68px;
+	color: #666;
+	font-size: 18px;
+}
+.dianW {
+	border: 1px solid #E2E2E2;
+	width: 1280px;
+	margin: 0 auto 20px;
+}
+.dianH {
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.dianH span {
+	font-size: 16px;
+	float: left;
+	line-height: 45px;
+}
+
+.dianH .dianName {
+	width: 350px;
+	margin-left: 55px;
+}
+.dianH .guige, .dianH .danjia, .dianH .shuliang, .dianH .jine, .dianH .caozuo {
+	width: 170px;
+	text-align: center;
+}
+.DianUl {
+	overflow: hidden;
+}
+.DianUl li {
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.DianUl .xuankaung {
+	display: inline-block;
+	float: left;
+	margin: 32px 20px 0;
+}
+.DianUl .gwcDet {
+	width: 350px;
+	float: left;
+	margin-left: 55px;
+}
+.DianUl .gwcDet img {
+	float: left;
+	margin-right: 20px;
+}
+.DianUl .yn8 {
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	color: #666;
+	font-size: 14px;	
+}
+.DianUl .guiggeNum, .DianUl .danjiaNum {
+	color: #999;
+	font-size: 14px;
+}
+.DianUl .jineNum {
+	color: #666;
+	font-size: 14px;
+}
+.DianUl .delete {
+	color: #498E3D;
+	font-size: 14px;
+}
+.DianUl .guiggeNum, .DianUl .danjiaNum, .DianUl .jineNum, .DianUl .delete{
+	width: 170px;
+	text-align: center;
+	float: left;
+	height: 80px;
+	line-height: 80px;
+}
+.DianUl .jiajianW {
+	width: 140px;
+	text-align: center;
+	float: left;
+	margin: 24px 0 0 30px;
+}
+.DianUl .fdR3-4-2, .DianUl .fdR3-4-4 {
+	width: 32px;
+	height: 32px;
+	background-color: #f2f2f2;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	float: left;
+	/*margin-top: 23px;*/
+	cursor: pointer;
+}
+.DianUl .fdR3-4-2NS span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:3px;width:15px;background-position:0 -94px;
+	margin-top: 14.5px;	
+}
+.DianUl .fdR3-4-2S span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:3px;width:15px;background-position:0 -97px;
+	margin-top: 14.5px;
+}
+.DianUl .fdR3-4-3 {
+	width: 45px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 18px;
+	color: #666;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	float: left;
+	/*margin-top: 23px;*/
+}
+.DianUl .fdR3-4-4 span {
+	display: inline-block;
+	background:url(../img/xuebitu/sprite.png) no-repeat;
+	height:15px;width:15px;background-position:0 -117px;
+	margin-top: 9.5px;
+}
+.DianUl .AllMoney {
+	height: 80px;
+}
+.dianW .AllMoney p{
+	height: 80px;
+	line-height: 80px;
+	display: inline-block;
+}
+.dianW .yunfei {
+	margin-left: 690px;
+}
+.AllMoney .aMNum, .AllMoney .yunfeinum, .AllMoney .heji-num{
+	font-size: 24px;
+	color: #ff5757;
+	margin-right: 35px;
+}
+.AllMoney .aMF {
+	font-size: 18px;
+	color: #666;
+	margin-right: 20px;
+}
+
+/*发票部分*/
+.kaipiao-wrap {
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.kaipiao-wrap .kpmes {
+	height: 68px;
+	line-height: 68px;
+	color: #666;
+	font-size: 18px;
+}
+.is-needkp {
+	margin-bottom: 20px;
+}
+.noneed, .self, .danwei {
+	float: left;
+	cursor: pointer;
+}
+.noneed img, .self img, .danwei img {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.noneed span, .self span, .danwei span {
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+	vertical-align: top;
+	height: 16px;
+	line-height: 16px;
+	margin-right: 40px;
+}
+.fp-top .fptop-f {
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+	font-size: 14px;
+	float: left;
+}
+.fp-top .fpinput {
+	float: left;
+	border: 1px solid #E2E2E2;
+	height: 35px;
+	width: 370px;
+	margin: 0 10px;
+}
+.fp-top .fpinput input {
+	height: 33px;
+	width: 350px;
+	padding-left: 10px;
+	line-height: 33px;
+	font-size: 14px;
+}
+.fp-top .zhuyiw {
+	margin-bottom: 20px;
+}
+.fp-top .zhuyiw span{
+	color: #ea5b0c;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	margin: 10px 5px 0 0;
+}
+.fp-top .zhuyiw p {
+	float: left;
+	line-height: 35px;
+	height: 35px;
+	color: #666;
+	font-size: 14px;
+}
+
+/*备注部分*/
+.beizhuw .addbzf {
+	height: 68px;
+	line-height: 68px;
+	color: #666;
+	font-size: 18px;
+}
+.beizhuw .bzinput {
+	border: 1px solid #E2E2E2;
+	height: 35px;
+	width: 625px;
+	margin-bottom: 30px;
+}
+.beizhuw .bzinput input {
+	height: 33px;
+	width: 600px;
+	padding-left: 10px;
+	line-height: 33px;
+	font-size: 14px;
+}
+.beizhuw .bzinput input::-webkit-input-placeholder {
+	color: #999;
+	font-size: 14px;
+}
+
+.beizhuw .bzinput input:-moz-placeholder {
+	color: #999;
+	font-size: 14px;
+}
+
+.beizhuw .bzinput input::-moz-placeholder {
+	color: #999;
+	font-size: 14px;
+}
+
+.beizhuw .bzinput input:-ms-input-placeholder {
+	color: #999;
+	font-size: 14px;
+}
+
+/*次日达*/
+.cirida-wrap {
+	width: 1280px;
+	margin: 0 auto;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.cirida-wrap .cirif {
+	height: 68px;
+	line-height: 68px;
+	color: #498e3d;
+	font-size: 18px;
+}
+.sdtime {
+	margin-bottom: 20px;
+}
+.sdtime .sdtimef {
+	float: left;
+	font-size: 16px;
+	color: #666;
+	margin-right: 20px;
+}
+.sdtime .timef {
+	float: left;
+	line-height: 25px;
+	font-size: 16px;
+	color: #333;
+	margin-right: 20px;
+}
+.sdtime .xgtime-w {
+	float: left;
+}
+.xgtime-w .rili {
+	background: url(../img/sprite.png) no-repeat;
+	height:22px;width:21px;background-position:0 -396px;
+	float: left;
+	margin-right: 10px;
+}
+.xgtime-w .djxg {
+	color: #498E3D;
+	font-size: 16px;
+	float: left;
+	height:22px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+
+/*实付金额和积分部分*/
+.shifu-w {
+	width: 1280px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E2E2E2;
+}
+.shifu-w .shifu {
+	height: 80px;
+}
+.shifu-w .shifu .shifuf {
+	font-size: 18px;
+	color: #666;
+	float: right;
+	height: 80px; 
+	line-height: 80px;
+	margin-right: 15px;
+}
+.shifu-w .shifu .shifu-num {
+	font-size: 24px;
+	color: #ff5757;
+	float: right;
+	height: 80px; 
+	line-height: 80px;
+}
+.getjifen {
+	height: 18px;
+	margin-bottom: 40px;
+}
+.getjifen .jifenf {
+	font-size: 16px;
+	float: right;
+	margin-right: 25px;
+}
+.getjifen .jifen-num {
+	font-size: 16px;
+	color: #F08200;
+	float: right;
+}
+.order-btn {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: right;
+	background-color: #F08200;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.circle, .defSpan {
+	cursor: pointer;
+}

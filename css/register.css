@@ -1,0 +1,294 @@
+.middle {
+	display: none;
+}
+.bottom {
+	display: none;
+}
+
+/*头部部分*/
+.fridayWrapJifen {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+}
+.friJifen {
+	width: 1280px;
+	margin: 0 auto;
+}
+.friJifen img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+}
+.friJifen p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 55px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+	padding-left: 60px;
+	border-left: 1px solid #E2E2E2;
+}
+
+
+.registerWrap {
+	width: 100%;
+	height: 500px;
+	background: url(../img/login/bgLogin.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.register-wrap {
+	background-color: #fff;
+	height: 498px;
+	width: 387px;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	position: absolute;
+	top: 0;
+	left: 1213px;
+}
+.registerCW {
+	width: 307px;
+	margin: 0 auto;
+}
+/* 注册头部 */
+.register-wrap h5 {
+	height: 25px;
+	margin: 19px 0;
+	font-size: 24px;
+	color: #666666;
+}
+.register-wrap .inputW {
+	background-color: #f9f9f9;
+}
+
+/*输入手机号部分*/
+.registerWrap .phoneInput {
+	height: 42px;
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 30px;
+}
+
+.registerWrap .input-phone {
+	width: 250px;
+}
+
+.registerWrap .inputCom {
+	height: 42px;
+	line-height: 40px;
+	font-size: 16px;
+	padding-left: 12px;
+	background-color: #f9f9f9;
+}
+
+.registerWrap .inputCom::-webkit-input-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.registerWrap .inputCom:-moz-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.registerWrap .inputCom::-moz-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.registerWrap .inputCom:-ms-input-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.registerWrap .rightImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height: 12px;
+	width: 12px;
+	background-position: 0 -46px;
+	float: right;
+	margin: 15px 15px 0 0;
+	display: none;
+}
+
+.registerWrap .falsePhoneP {
+	height: 30px;
+	display: none;
+}
+
+.registerWrap .falseImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height: 12px;
+	width: 12px;
+	background-position: 0 -23px;
+	margin-top: 9px;
+	float: left;
+}
+
+.registerWrap .falsephonep {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #db2630;
+}
+
+/*密码部分*/
+
+.registerWrap .passWrap, .registerWrap .repassWrap {
+	width: 100%;
+	height: 42px;
+	margin-bottom: 30px;
+	/*display: none;*/
+	border: 1px solid #d3d3d3;
+}
+.registerWrap .passWrap .input-pass, .registerWrap .repassWrap input{
+	width: 220px;
+}
+.registerWrap .eyeImg {
+	width: 30px;
+	height: 16px;
+	float: right;
+	margin: 13px 10px 0 0;
+}
+.registerWrap .eyeImg img {
+	width: 100%;
+	height: 100%;
+}
+
+/*验证码部分*/
+.registerWrap .codeWrap {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 30px;
+}
+.registerWrap .codeWrap .codeInputP {
+	width: 110px;
+	height: 40px;
+	border: 1px solid #d3d3d3;
+	float: left;
+	margin-right: 20px;
+}
+.codeWrap .codeInputP input {
+	height: 40px;
+}
+.codeInputP .rightImg {
+	margin-top: -28px;
+}
+.codeWrap .falsePhoneP {
+	/*margin-left: -100px;*/
+	float: left;
+}
+
+.registerWrap .codeInput {
+	width: 90px;		
+	float: left;
+}
+.registerWrap #canvas {
+	width: 80px;
+	height: 36px;
+	float: left;
+	margin-top: 3px;
+}
+.registerWrap .notSeeCode {
+	color: #F08200;
+	font-size: 14px;
+	height: 42px;
+	line-height: 42px;
+	float: right;
+}
+/*手机验证码*/
+.registerWrap .phoneCodeWrap {
+	width: 100%;
+	height: 42px;
+	border: 1px solid #d3d3d3;
+}
+.registerWrap .getCode {
+	font-size: 14px;
+	color: #ffffff;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	background-color: #498E3D;
+	margin: 6px;
+	text-align: center;
+}
+/*自动登录*/
+.registerWrap .autoLoW {
+	margin-bottom: 20px;
+}
+.registerWrap .autoLoW img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.registerWrap .autoLoW span {
+	color: #666666;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.registerWrap .loginBtnW {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 15px;
+}
+.registerWrap .autoLoW a {
+	color: #F08200;
+	font-size: 14px;
+	vertical-align: middle;
+	float: right;
+	text-decoration: underline;
+}
+/*登录 注册*/
+.registerWrap .loginBtnW p {
+	width: 133px;
+	height: 45px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 45px;
+}
+.registerWrap .loginBtnW .loginBtn {
+	float: right;
+	background-color: #f08200;
+	border-radius: 5px;
+}
+.registerWrap .loginBtnW .loginBtn a{
+	color: #fff;
+	font-size: 18px;
+}
+.registerWrap .loginBtnW .registerBtn {
+	float: left;
+	background-color: #498e3d;
+	border-radius: 5px;
+}
+/*我已阅读*/
+.registerWrap .readedW {
+	width: 100%;
+	height: 45px;
+}
+.registerWrap .readedW .readedImg {
+	margin-top: 13.5px;
+	margin: 13.5px 10px 0 0;
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.registerWrap .readedW .readedImg1 {	
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:18px;width:18px;background-position:0 -280px;
+}
+.registerWrap .readedW .readedImg2 {
+	background: url(../img/login/circle1.png);
+}
+.registerWrap .readedW .readedFont {
+	color: #666666;
+	font-size: 14px;
+	height: 100%;
+	line-height: 45px;
+	float: left;
+}

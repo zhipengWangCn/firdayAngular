@@ -1,0 +1,56 @@
+.ifankui {
+	width: 1083px;
+	height: 622px;
+	border: 1px solid #e7e7e7;
+}
+.ifankui .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.ifankui .first .fanfirp {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.ifankui .second {
+	width: 1042px;
+	height: 374px;
+	margin: 20px auto 0;
+}
+.ifankui .second textarea{
+	width: 1002px;
+	height: 100%;
+	resize: none;
+	font-size: 16px;
+	color: #999;
+	line-height: 50px;
+	padding: 0 20px;
+	border: 1px solid #e7e7e7;
+}
+.ifankui .third {
+	width: 403px;
+	height: 50px;
+	margin: 40px auto;
+}
+
+.ifankui .third button{
+	width:150px;
+	height: 50px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.ifankui .third button:nth-child(1){
+	background-color:#999;
+	float: left;
+}
+.ifankui .third button:nth-child(2){
+	background-color:#f08200;
+	float: right;
+}

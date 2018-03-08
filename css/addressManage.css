@@ -1,0 +1,156 @@
+.addressManage {
+	width: 1083px;
+	height: 622px;
+	border: 1px solid #e7e7e7;
+}
+.addressManage .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.addressManage .first p:nth-child(1) {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+	float: left;
+}
+/*.addressManage .first p:nth-child(2) {
+	font-size: 14px;
+	float: right;
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #498e3d;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin: 13px 20px 0 0;
+	
+}*/
+.addressManage .second {
+	width: 1042px;
+	/*height: 46px;*/
+	border: 1px solid #e7e7e7;
+	margin: 20px auto 0;
+}
+.addressManage .second .biaotou {
+	width: 100%;
+	height: 46px;
+	background-color: #f2f2f2;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p {
+	font-size: 16px;
+	color: #333;
+	float: left;
+}
+
+.addressManage .second .biaotou p:nth-child(1){
+	width: 105px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p:nth-child(2){
+	width: 150px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p:nth-child(3){
+	width: 330px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p:nth-child(4){
+	width: 140px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p:nth-child(5){
+	width: 90px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.addressManage .second .biaotou p:nth-child(6){
+	width: 220px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+/*收货人信息部分*/
+.jfDDWrap {
+	width: 1042px;
+	margin: 0 auto;
+}
+
+.jfDDWrap h5 {
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	color: #666666;
+	float: left;
+}
+.perMessW .newAdr {
+	font-size: 14px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	width: 90px;
+	float: right;
+	background-color: #F08200;
+	border-radius: 5px;
+	margin-top: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.adrWrap li {
+	width: 100%;
+	height: 53px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.adrWrap span {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	line-height: 53px;
+}
+.adrWrap span:nth-child(1) {
+	padding: 0 30px;
+}
+.adrWrap span:nth-child(3) {
+	/*padding: 0 50px;*/
+}
+.adrWrap span:nth-child(5) {
+	/*padding: 0 20px;*/
+}
+.adrWrap .selAdr {
+	height: 53px;
+	background-color: #F4FFF2;
+}
+
+.mess {	
+	color: #666;	
+	margin-right: 10px;
+}
+.defaultAdr {	
+	color: #999;
+}
+.adrWrap .setDefAdr {
+	float: right;
+	margin-right: 22px;
+	color: #F08200;
+}
+.adrWrap .xg, .adrWrap .delete {
+	float: right;
+	margin-right: 22px;
+	color: #498E3D;
+	cursor: pointer;
+}
+
+
+

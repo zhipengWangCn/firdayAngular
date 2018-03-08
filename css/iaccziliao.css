@@ -1,0 +1,187 @@
+.iaccziliao {
+	width: 1083px;
+	height: 622px;
+	border: 1px solid #e7e7e7;
+}
+.iaccziliao .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.iaccziliao .first p {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.iaccziliao .second {
+	margin: 20px 0 0 40px;
+}
+.iaccziliao .second .sec-fir p,.iaccziliao .second .sec-fir img{
+	float: left;
+}
+.iaccziliao .second .sec-fir .touxiang {
+	font-size: 16px;
+	margin: 30px 5px 0 0;
+}
+
+.iaccziliao .second .sec-fir img {
+	width: 76px;
+	height: 76px;
+}
+
+.iaccziliao .second .sec-fir .xiugai{
+	font-size: 14px;
+	margin: 30px 0 0 10px;
+	color: #4b943d;
+	cursor: pointer;
+}
+.iaccziliao .second .sec-sec {
+	margin-top: 20px;
+}
+.iaccziliao .second .sec-sec p,.iaccziliao .second .sec-sec input {
+	float: left;
+}
+.iaccziliao .second .sec-sec p {
+	font-size: 16px;
+	margin: 10px 15px 0 30px;
+}
+.iaccziliao .second .sec-sec input {
+	width: 165px;
+	height: 35px;
+	border: 1px solid #e7e7e7;
+	font-size: 16px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.iaccziliao .second .sec-thi {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.iaccziliao .second .sec-thi p ,.iaccziliao .second .sec-thi img {
+	float: left;
+}
+.iaccziliao .second .sec-thi .xingbie{
+	margin: 0 15px 0 30px;
+}
+
+.iaccziliao .second .sec-thi .manimg{
+	margin: 3px 10px 0 0;
+	cursor: pointer;
+}
+.iaccziliao .second .sec-thi .girlimg{
+	margin: 3px 10px 0 35px;
+	cursor: pointer;
+}
+.iaccziliao .second .sec-fou {
+	margin-top: 20px;
+	font-size: 16px;
+	position: relative;
+}
+.iaccziliao .second .sec-fou p,.iaccziliao .second .sec-fou img,.iaccziliao .second .sec-fou div{
+	float: left;
+}
+
+.iaccziliao .second .sec-fou .birthday {
+	margin: 8px 15px 0 30px;
+	
+}
+.iaccziliao .second .sec-fou .year,.iaccziliao .second .sec-fou .mounth,.iaccziliao .second .sec-fou .day {
+	width: 110px;
+	height: 35px;
+	border: 1px solid #e7e7e7;
+	cursor: pointer;
+}
+.year p, .mounth p, .day p {
+	width: 76px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+.year img, .mounth img, .day img {
+	width: 16px;
+	height: 12px;
+	text-align: center;
+	margin-top: 12px;
+}
+.nian, .yue, .ri {
+	font-size: 16px;
+	margin: 8px 30px 0 10px;
+}
+
+.iaccziliao .second .sec-fiv {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.iaccziliao .second .sec-fiv p,.iaccziliao .second .sec-fiv input {
+	float: left;
+}
+.iaccziliao .second .sec-fiv .shouji {
+	margin: 8px 15px 0 30px;
+}
+
+.iaccziliao .second .sec-fiv input {
+	width: 165px;
+	height: 35px;
+	border: 1px solid #e7e7e7;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.iaccziliao .second .sec-fiv .huanshouji {
+	font-size: 16px;
+	color: #4b943d;
+	margin: 8px 0 0 20px;
+	cursor: pointer;
+}
+.iaccziliao .second .sec-fiv .phonecheck {
+	color: #999;
+}
+.iaccziliao .second .qrtj {
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #f08200;
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	margin: 40px 0 0 100px;
+}
+.year1,.mounth1,.day1{
+	width: 110px;
+	height: 200px;
+	position: absolute;
+	text-align: left;
+	overflow-y: scroll;
+	background-color:#fff;
+	display: none;
+}
+.year1 {
+	left: 82px;
+	top: 37px;
+}
+.pinkColor{
+	background-color: #f08200;
+}
+.mounth1 {
+	left: 250px;
+	top: 37px;
+}
+
+.day1{
+	left: 418px;
+	top: 37px;
+}
+.iaccziliao .second option{
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

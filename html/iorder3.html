@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iorder3.css" />
+	</head>
+
+	<body>
+		<div class="iorder3">
+			<div class="first">
+				<p>我的订单</p>
+			</div>
+			<div class="second">
+				<div class="second-fir clearfix">
+					<span class="sp all" ng-click="showNum('')">全部</span>
+					<div></div>
+					<span class="daifu" ng-click="showNum('待付款')">待付款</span>
+					<div></div>
+					<span class="daifa" ng-click="showNum('待发货')">待发货</span>
+					<div></div>
+					<span class="daishou" ng-click="showNum('已发货')">待收货</span>
+					<div></div>
+					<span class="daiping" ng-click="showNum('已收货')">待评价</span>
+					<div></div>
+					<span class="shouhou" ng-click="showNum('待付款')">退款/售后</span>
+					<div></div>
+					<span class="guanbi" ng-click="showNum('已收货')">已完成/关闭</span>
+					<span class="huishou">订单回收站</span>
+				</div>
+			</div>
+			<ul class="mainall">
+				<li class="mainli" ng-repeat="item in arrlist" ng-show="shownum==''?true:item.state==shownum">
+					<div class="tou clearfix">
+						<p class="tp1">订单号:{{item.num}}</p>
+						<p class="tp2">下单日期:{{item.data}}</p>
+						<p class="tp3">{{item.shop}}</p>
+						<p class="tp4 clearfix"><span>订单状态:</span><span>{{item.state}}</span></p>
+					</div>
+					<div class="table clearfix">
+						<dl class="leftall">
+							<dd class="clearfix" ng-repeat="lit in item.small">
+								<img ng-src="{{lit.smallimg}}" alt="" />
+								<p>{{lit.smalltype}}</p>
+								<p>{{lit.smallnum}}</p>
+								<p>{{lit.smallprice}}</p>
+							</dd>
+						</dl>
+						<div class="middleall">
+							<p>店铺合计:{{item.total}}</p>
+							<p>(含运费:{{item.yunfei}})</p>
+						</div>
+						<div class="rightall">
+							<p class="lookxq" ng-click="lookdetail()">查看详情</p>
+							<p class="btn" ng-show="item.state =='关闭'?true:false" ng-click="smalldelete($index)">删除订单</p>
+							<p class="btn" ng-show="item.state =='待付款'?true:false">去支付</p>
+							<p class="btn" ng-show="item.state =='待付款'?true:false">取消订单</p>
+							<p class="btn" ng-show="item.state =='已收货' || item.state =='待发货'?true:false">申请退款</p>
+							<p class="btn" ng-show="item.state =='已发货'?true:false">确认收货</p>
+							<p class="btn" ng-show="item.state =='已发货'?true:false">查看物流</p>
+							<p class="btn" ng-show="item.state =='已收货'?true:false" ng-click="pingjia()">去评价</p>
+							<p class="btn" ng-show="item.state =='已收货'?true:false">交易完成</p>
+							<p class="btn" ng-show="item.state =='退款失败'?true:false">申请平台介入</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="bot-num">
+				<span><</span>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>...</span>
+				<span>10</span>
+				<span>></span>
+				<input type="text" value="" />
+				<span>/10</span>
+				<span>跳转</span>
+			</div>
+
+		</div>
+	</body>
+	
+
+</html>

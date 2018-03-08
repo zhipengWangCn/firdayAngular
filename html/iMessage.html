@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的消息</title>
+		<link rel="stylesheet" type="text/css" href="../css/iMessage.css"/>
+	</head>
+	<body>
+		<div class="imessage">
+			<div class="first"><p>我的消息</p></div>
+			<div class="second">
+				<div class="biaotou">
+					<span>标题</span>
+					<span>发送时间</span>
+					<span>状态</span>
+					<span>操作</span>
+				</div>
+				<!--<div class="zhuangtai">
+					<span class="send">您的货物已发货您的货物已发货您的货物已发货</span>
+					<span class="clock">2015年9月23日15:25:07</span>
+					<span class="nofind">未查看</span>
+					<span class="find">查看</span>
+					<span class="delete">删除</span>
+				</div>-->
+				<div class="zhuangtai" ng-repeat="item in myMessage">
+					<span class="send">{{item.send}}</span>
+					<span class="clock">{{item.clock}}</span>
+					<span class="nofind">{{item.nofind}}</span>
+					<span class="find" ng-click="findclick()">{{item.find}}</span>
+					<span class="delete" ng-click="deleteclick()">{{item.delete}}</span>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+	
+
+	
+</html>

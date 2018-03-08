@@ -1,0 +1,63 @@
+.middle {
+	display: block;
+}
+.bottom {
+	display: block;
+}
+.integral-wp{
+	width: 1280px;
+	margin: 0 auto ;
+	padding-bottom:40px ;
+}
+.a3{
+	width: 303px;
+	height:477px ;
+	border: 1px solid #ececec;
+	float: left;
+	margin: 20px 20px 0 0;
+	text-align: center;
+}
+.a3:hover{
+	border: 1px solid #498e3d;
+}
+.integral-wp .a3:nth-child(4n){
+	margin-right: 0;
+}
+.integral-wp .a3 img{
+	width: 300px;
+	height: 253px;
+	margin: 34px 0 16px 0;
+}
+
+.a3 .text1{
+	font-size: 18px;
+	color: #333;
+	/*margin-top:16px ;*/
+}
+.a3 .text2{
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+}
+.a3 .text3,.a3 .text3 em:nth-child(2){
+	font-size: 18px;
+	color: #666;
+	margin-top: 15px;
+	line-height: 24px;
+}
+.a3 .text3 em:nth-child(1){
+	font-size: 24px;
+	color: #ff5757;
+	margin-right: 28px;
+}
+.a3 .text4{
+	width: 150px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background-color: #f08200;
+	margin: 16px auto 0;
+	border-radius: 18px;
+}

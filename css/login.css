@@ -1,0 +1,319 @@
+
+/*头部部分*/
+
+.fridayWrapJifen {
+	height: 130px;
+	width: 100%;
+	border-bottom: 1px solid #E2E2E2;
+}
+.friJifen {
+	width: 1280px;
+	margin: 0 auto;
+}
+.friJifen img {
+	height: 68px;
+	margin-top: 31px;
+	float: left;
+}
+.friJifen p {
+	float: left;
+	height: 40px;
+	margin: 55px 0 0 55px;
+	line-height: 40px;
+	color: #666;
+	font-size: 20px;
+	padding-left: 60px;
+	border-left: 1px solid #E2E2E2;
+}
+
+
+.loginWrap {
+	width: 100%;
+	height: 500px;
+	background: url(../img/login/bgLogin.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.login-wrap {
+	background-color: #fff;
+	height: 498px;
+	width: 387px;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	position: absolute;
+	top: 0;
+	left: 1213px;
+}
+
+.login-wrap .login-cw {
+	width: 307px;
+	margin: 0 auto;
+}
+
+/* 登录头部 */
+.login-wrap .login-header {
+	height: 25px;
+	margin: 19px 0;
+}
+
+.login-wrap .codeloginImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height: 17px;
+	width: 15px;
+	background-position: 0 -100px;
+}
+.login-wrap .phoneloginImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:16px;width:12px;background-position:0 -69px;
+}
+.login-wrap .loginP1 {
+	font-size: 24px;
+	float: left;
+	color: #666666;
+	margin-top: 2px;
+}
+
+.login-wrap .loginImg {
+	float: right;
+	margin-top: 10px;
+}
+
+.login-wrap .loginP2 {
+	font-size: 16px;
+	float: right;
+	color: #498e3d;
+	margin: 10px 3px 0 0;
+}
+.login-wrap .inputW {
+	background-color: #f9f9f9;
+}
+/*输入手机号部分*/
+.login-wrap .phoneInput {
+	height: 42px;
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 30px;
+}
+.login-wrap .input-phone {
+	width: 250px;
+}
+.login-wrap .inputCom {
+	height: 42px;	
+	line-height: 40px;
+	font-size: 16px;
+	padding-left: 12px;
+	background-color: #f9f9f9;
+}
+.login-wrap .inputCom::-webkit-input-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.login-wrap .inputCom:-moz-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.login-wrap .inputCom::-moz-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+
+.login-wrap .inputCom:-ms-input-placeholder {
+	color: #999;
+	font-size: 16px;
+}
+.login-wrap .rightImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:12px;width:12px;background-position:0 -46px;
+	float: right;
+	margin: 15px 15px 0 0;
+	display: none;
+}
+.login-wrap .falsePhoneP {
+	height: 30px;
+	display: none;
+}
+.login-wrap .falseImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:12px;
+	width:12px;
+	background-position:0 -23px;
+	margin-top: 9px;
+	float: left;
+}
+.login-wrap .falsephonep {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #db2630;
+}
+/*密码部分*/
+.login-wrap .passWrap {
+	width: 100%;
+	height: 42px;
+	margin-bottom: 30px;
+	display: none;
+	border: 1px solid #d3d3d3;
+}
+.login-wrap .eyeImg {
+	width: 30px;
+	height: 16px;
+	float: right;
+	margin: 13px 10px 0 0;
+}
+.login-wrap .eyeImg img {
+	width: 100%;
+	height: 100%;
+}
+/*验证码部分*/
+.login-wrap .codeWrap {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 30px;
+}
+.login-wrap .codeWrap .codeInputP {
+	width: 110px;
+	height: 40px;
+	border: 1px solid #d3d3d3;
+	float: left;
+	margin-right: 20px;
+}
+.codeWrap .codeInputP input {
+	height: 40px;
+}
+.codeInputP .rightImg {
+	margin-top: -28px;
+}
+.codeWrap .falsePhoneP {
+	/*margin-left: -100px;*/
+	float: left;
+}
+
+.login-wrap .codeInput {
+	width: 90px;		
+	float: left;
+}
+.login-wrap #canvas {
+	width: 80px;
+	height: 36px;
+	float: left;
+	margin-top: 3px;
+}
+.login-wrap .notSeeCode {
+	color: #F08200;
+	font-size: 14px;
+	height: 42px;
+	line-height: 42px;
+	float: right;
+}
+.login-wrap .phoneCodeWrap {
+	width: 100%;
+	height: 42px;
+	margin-bottom: 20px;
+	border: 1px solid #d3d3d3;
+}
+.login-wrap .getCode {
+	font-size: 14px;
+	color: #ffffff;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	background-color: #498E3D;
+	margin: 6px;
+	text-align: center;
+}
+.login-wrap .autoLoW {
+	margin-bottom: 20px;
+}
+.login-wrap .autoLoW img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.login-wrap .autoLoW span {
+	color: #666666;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.login-wrap .loginBtnW {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 15px;
+}
+.login-wrap .autoLoW a {
+	color: #F08200;
+	font-size: 14px;
+	vertical-align: middle;
+	float: right;
+	text-decoration: underline;
+}
+.login-wrap .loginBtnW p {
+	width: 133px;
+	height: 45px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.login-wrap .loginBtnW .loginBtn {
+	float: left;
+	background-color: #f08200;
+	border-radius: 5px;
+}
+.login-wrap .loginBtnW .registerBtn {
+	float: right;
+	background-color: #498e3d;
+	border-radius: 5px;
+}
+.login-wrap .loginBtnW .registerBtn a {
+	color: #fff;
+	font-size: 18px;
+}
+.login-wrap .tip {
+	color: #999;
+	font-size: 14px;	
+	margin-bottom: 15px;
+}
+.login-wrap .coopLogin {
+	margin-bottom: 15px;
+}
+.login-wrap .coopLogin .coopLoginL {
+	float: left;
+}
+.login-wrap .coopLogin .coopLoginC {
+	float: left;
+	margin-left: 11px;
+	color: #666;
+	font-size: 16px;
+}
+.login-wrap .coopLogin .coopLoginR {
+	float: right;
+}
+.login-wrap .coopLogin .coopLoginL, .login-wrap .coopLogin .coopLoginR{
+	color: #D3D3D3;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+.login-wrap .wcqqImg {
+	width: 97px;
+	margin: 0 auto;
+}
+.login-wrap .wechatImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:40px;
+	width:40px;
+	background-position:0 -1268px;
+	float: left;
+}
+.login-wrap .qqImg {
+	background: url(../img/xuebitu/sprite.png) no-repeat;
+	height:40px;width:40px;background-position:0 -1308px;
+	float: right;
+}
+

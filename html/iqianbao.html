@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的钱包</title>
+		<link rel="stylesheet" type="text/css" href="../css/iqianbao.css"/>
+	</head>
+	<body>
+		<div class="iqianbao">
+			<div class="first"><p class="iqianbao-p"><span>账户余额</span><span>:</span><span>¥20.0</span></p></div>
+			<div class="second">
+				<p class="jine">请选择充值金额:</p>
+				<div class="sec-1 clearfix">
+					<p class="p1">500元</p>
+					<p class="p2">1000元</p>
+					<p class="p3">2000元</p>
+				</div>
+				<p class="youli">充值有礼</p>
+				<div class="sec-2 clearfix">
+					<p>充500元送:</p>
+					<p><img src="../img/selfCenter/16.png" alt="" /></p>
+					<p>新疆哈密瓜25kg</p>
+					<p>价值:500</p>
+				</div>
+				<div class="sec-2 clearfix">
+					<p>充1000元送:</p>
+					<p><img src="../img/selfCenter/16.png" alt="" /></p>
+					<p>新疆哈密瓜50kg</p>
+					<p>价值:1000</p>
+				</div><br />
+				<button class="ljcz">立即充值</button>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".sec-1 p").click(function(){
+			$(".sec-1 p").removeClass("czdje");
+			$(this).addClass("czdje");
+		});
+	</script>
+</html>

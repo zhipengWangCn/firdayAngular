@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<link rel="stylesheet" type="text/css" href="../css/loginButtom.css"/>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="fridayWrapJifen">
+			<div class="friJifen">
+				<img src="../img/main/1.png" alt="" />
+				<p>会员登录</p>
+			</div>
+		</div>
+		<div class="loginWrap">
+			<div class="login-wrap">
+				<div class="login-cw">
+					<div class="login-header">
+						<span class="loginP1">登录</span>
+						<p class="loginImg codeloginImg"></p>
+						<span class="loginP2 codeloginP2">账号密码登录</span>
+					</div>
+					<div class="phoneWrap">
+						<div class="phoneInput inputW">
+							<input type="text" name="phone" value="" placeholder="请输入手机号" class="input-phone inputCom" />
+							<p class="rightImg"></p>
+						</div>
+						<div class="falsePhoneP">
+							<p class="falseImg"></p>
+							<p class="falsephonep">手机号码不正确，请重新输入</p>
+						</div>
+					</div>
+					<div class="passWrap">
+						<div class="passInput inputW">
+							<input type="password" name="pass" value="" placeholder="请输入密码" class="input-pass inputCom" />							
+						</div>					
+					</div>
+					<div class="codeWrap clearfix">
+						<div class="codeInputP  inputW">
+							<input type="text" name="code" value="" placeholder="验证码" class="codeInput inputCom" />
+							<p class="rightImg"></p>
+						</div>
+						
+						<canvas id="canvas" width="80" height="39"></canvas>
+						<p class="notSeeCode">看不清换一张</p>
+						
+						<div class="falsePhoneP">
+							<p class="falseImg"></p>
+							<p class="falsephonep">验证码不正确，请重新输入</p>
+						</div>
+					</div>
+					<div class="phoneCodeWrap inputW">
+						<input type="text" name="phoneCode" value="" placeholder="手机验证码" class="phonecodeInput inputCom" />
+						<p class="getCode">获取验证码</p>
+					</div>
+					<div class="autoLoW">
+						<img src="../img/login/checkbox1.png" alt="" class="autoImg1" />
+						<span>自动登录</span>
+						<a href="zhaopassword.html">忘记密码 ?</a>
+					</div>
+					<div class="loginBtnW">
+						<p class="loginBtn">登录</p>
+						<p class="registerBtn"><a href="register.html">注册</a></p>
+					</div>
+					<p class="tip">提示：未注册用户将直接注册成为礼拜五用户</p>
+					<div class="coopLogin clearfix">
+						<p class="coopLoginL">---------------</p>
+						<p class="coopLoginC">用合作网站登录</p>
+						<p class="coopLoginR">---------------</p>
+					</div>
+					<div class="wcqqImg">
+						<p class="wechatImg"></p>
+						<p class="qqImg"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="foot">
+			<div class="fo-1">
+				<div class="fo-1-mid clearfix">
+					<div class="xuebi1f">
+						<p class="xuebi1"></p>
+						<span class="freshfir-f">优鲜保障</span>
+					</div>
+					<div class="xuebi2f">
+						<p class="xuebi2"></p>
+						<span>全程监控</span>
+					</div>
+					<div class="xuebi3f">
+						<p class="xuebi3"></p>
+						<span>礼拜五特惠</span>
+					</div>
+					<div class="xuebi4f">
+						<p class="xuebi4"></p>
+						<span>基地直供</span>
+					</div>
+					<div class="xuebi5f">
+						<p class="xuebi5"></p>
+						<span>准时送达</span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="fo-2">
+				<div class="fo-2-mid clearfix">
+					<div class="fo-2-mid-d1">
+						<img src="../img/main/1.png" alt="" />
+						<p>
+							<span>服务时间：08：00-22:00</span>
+							<img src="../img/main/5.png" alt="" />
+							<em>400-800-8820</em>
+						</p>
+					</div>
+					<div class="fo-2-mid-d2"><img src="../img/main/4.png" alt="" /><p>礼拜五官方微信</p></div>
+					<div class="fo-2-mid-d3"><img src="../img/main/4.png" alt="" /><p>礼拜五App</p></div>
+					<div class="fo-2-mid-d4"><p>关于礼拜五</p><p>新用户注册</p><p>在线下单</p><p>支付方式</p></div>
+					<div class="fo-2-mid-d5"><p>配送说明</p><p>运费说明</p><p>配送方式</p><p>发票说明</p></div>
+					<div class="fo-2-mid-d6"><p>售后服务</p><p>退换货说明</p><p>服务保障承诺</p><p>验货与签收</p></div>
+					<div class="fo-2-mid-d7"><p>加盟礼拜五</p><p>加盟条款</p><p>公司简介</p><p>服务协议</p></div>
+				</div>
+			</div>
+			<div class="fo-3">
+				<div class="fo-3-mid"><p>版权所有 © 礼拜五  保留所有权利 | 沪ICP备12042163</p><p>礼拜五  纵享品质</p></div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/loginAlert.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/code.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

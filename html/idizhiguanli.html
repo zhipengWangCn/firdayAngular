@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/idizhi.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/alertAddr.css" />
+	</head>
+
+	<body>
+		<div class="address-wrap">
+		<div class="addr-wrap">
+			<!--收货人信息-->
+			<div class="perMessW">
+				<div class="perMeH clearfix">
+					<h5>地址管理</h5>
+					<p class="newAdr">添加新地址</p>
+				</div>
+				<div class="adrcon-w">
+					<div class="addrmes-head">
+						<p class="shr-f">收货人</p>
+						<p class="quyu-f">所在区域</p>
+						<p class="jiedao-f">街道地址</p>
+						<p class="lianxi-f">联系电话</p>
+						<p class="beizhu-f">备注</p>
+						<p class="caozuo-f">操作</p>
+					</div>
+					<ul class="adrWrap">
+						
+						
+					</ul>
+				</div>				
+			</div>
+		</div>
+
+		<!--弹出框-->
+		<div class="alertMask">
+		</div>
+		<div class="alertAddrWrap">
+			<h5 class="addH5">添加地址</h5>
+			<div class="aleMessW">
+				<div class="nameW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">收货人姓名 :</span>
+					</p>
+					<div class="inputW nameInpW">
+						<input type="text" name="nameT" value="" placeholder="收货人姓名" />
+					</div>
+				</div>
+				<div class="sele clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">收货地址 :</span>
+					</p>
+					<div id="sheng" class="sheng">
+						<span>请选择市</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="shi" class="shi">
+						<span>请选择市</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="xian" class="xian">
+						<span>请选择县</span>
+						<div>
+							<img src="../img/main/11.png" alt="" />
+						</div>
+					</div>
+					<div id="sh"></div>
+					<div id="city"></div>
+					<div id="xi"></div>
+				</div>
+				<div class="detDW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">详细地址 :</span>
+					</p>
+					<div class="inputW dzInpW">
+						<input type="text" name="dzT" value="" placeholder="用于接收货物的详细地址" />
+					</div>
+				</div>
+				<div class="phoneW clearfix">
+					<p class="aSW">
+						<span class="addrStar">*</span>
+						<span class="spanF">联系电话 :</span>
+					</p>
+					<div class="inputW phInpW">
+						<input type="text" name="phT" value="" placeholder="推荐使用手机号" />
+					</div>
+					
+				</div>
+				<div class="setAddrW clearfix">
+					<img src="../img/jifendingdan/circle0.png" alt="" class="nSelImg" />
+					<p class="setAddrF">设置为常用地址</p>
+				</div>
+				<div class="reSaW">
+					<p class="return">返回</p>
+					<p class="save">保存</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="addrempty">
+			<img src="../img/jifendingdan/write.png" alt="" />
+			<p class="qingdianji">暂无收货地址, 请点击</p>
+			<p class="addfiraddr">添加新地址</p>
+		</div>
+		</div>
+	</body>
+	<script src="../js/adress.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/iaddr.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>

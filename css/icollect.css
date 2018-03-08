@@ -1,0 +1,84 @@
+.collect {
+	width: 1083px;
+	border: 1px solid #e7e7e7;
+}
+.collect .first {
+	width: 100%;
+	height: 56px;
+	border-bottom:1px solid #e7e7e7;
+}
+.collect .first p {
+	font-size: 18px;
+	line-height: 58px;
+	color: #303030;
+	margin-left: 22px;
+}
+.collect .second {
+	width: 1083px;
+}
+.collect .second .sec-one {
+	width: 306px;
+	height: 433px;
+	border: 1px solid #e7e7e7;
+	position: relative;
+	margin: 25px 25px;
+	display: inline-block;
+}
+.collect .second .sec-one .sec-two {
+	width: 262px;
+	height: 246px;
+	margin: 0 auto;
+}
+.collect .second .sec-one .sec-two img {
+	width: 100%;
+	border: none;
+}
+.collect .second .sec-one .one-p1 {
+	width: 100%;
+	font-size: 16px;
+	color: #707070;
+	margin: 24px 0 0 20px;
+}
+.collect .second .sec-one .one-p2 {
+	width: 100%;
+	font-size: 14px;
+	color: #949494;
+	margin: 15px 0 0 20px;
+}
+.collect .second .sec-one .one-p3 {
+	margin: 15px 0 0 20px;
+}
+.collect .second .sec-one .one-p3 span:nth-child(1){
+	font-size: 24px;
+	color: #ff5757;
+}
+.collect .second .sec-one .one-p3 span:nth-child(2){
+	font-size: 18px;
+	color: #666;
+	padding-left: 20px;
+}
+.collect .second .sec-one .gwc {
+	width: 38px;
+	height: 34px;
+	position: absolute;
+	right: 20px;
+	bottom: 68px;
+}
+
+.collect .second .sec-one .shixiao, .collect .second .sec-one .quxiao {
+	width: 152px;
+	height: 36px;
+	border-radius: 18px;
+	margin: 24px 0 0 78px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	font-size: 16px;
+}
+.collect .second .sec-one .shixiao {
+	background-color: #999;
+}
+.collect .second .sec-one .quxiao {
+	background-color: #4b943d;
+}
+
